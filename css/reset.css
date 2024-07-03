@@ -1,0 +1,28 @@
+/* RESET */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	letter-spacing: -0.04em;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+}
+
+ul, li, ol {
+	list-style: none;
+}
+
+a {
+	display:block;
+	text-decoration: none;
+	color: inherit;
+	&:visited {
+		color: inherit;
+	}
+	&:active {
+		color: inherit;
+	}
+}
